@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
     if (obj && obj.auctions && Array.isArray(obj.auctions.auction)){
         const data = obj.auctions.auction;
         const sorted = data.map((item) => ({
-            StockCode: itemm.StockCode,
+            StockCode: item.StockCode,
             ValCode: item.ValCode,
             Attraction: item.Attraction,
         }));
