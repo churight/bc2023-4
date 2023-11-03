@@ -1,5 +1,5 @@
 {
-  "name": "lab-4",
+  "name": "bc2023-4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,9 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fast-xml-parser": "^4.3.2"
-  },
-  "devDependencies": {
     "nodemon": "^3.0.1"
   }
 }
+
